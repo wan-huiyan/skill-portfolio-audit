@@ -1,0 +1,18 @@
+{
+  "name": "skill-portfolio-audit",
+  "version": "1.1.0",
+  "description": "Run a full quality audit across a portfolio of Claude Code skills and implement all findings. Orchestrates agent-review-panel (parallel reviewers) → plan-review-integrator (validates findings) → subagents (implement P0/P1/P2/P3 in parallel). Covers badge addition, release creation, README hook rewrites, Requirements/Limitations sections, and cost table correctness.",
+  "author": {
+    "name": "wan-huiyan",
+    "url": "https://github.com/wan-huiyan"
+  },
+  "repository": "https://github.com/wan-huiyan/skill-portfolio-audit",
+  "license": "MIT",
+  "keywords": [
+    "portfolio-audit",
+    "quality-assurance",
+    "multi-skill",
+    "readme-standardization",
+    "claude-code-skill"
+  ]
+}
