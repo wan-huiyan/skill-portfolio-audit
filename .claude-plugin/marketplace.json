@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "wan-huiyan-skill-portfolio-audit",
+  "description": "Single-plugin marketplace for skill-portfolio-audit — Run a full quality audit across a portfolio of Claude Code skills and implement all findings.",
+  "owner": {
+    "name": "wan-huiyan"
+  },
+  "plugins": [
+    {
+      "name": "skill-portfolio-audit",
+      "source": "./plugins/skill-portfolio-audit",
+      "description": "Run a full quality audit across a portfolio of Claude Code skills and implement all findings. Orchestrates agent-review-panel → plan-review-integrator → parallel subagent implementation.",
+      "version": "1.1.0"
+    }
+  ]
+}
