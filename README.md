@@ -4,10 +4,28 @@
 
 Maintaining 10–20 Claude Code skills accumulates drift — inconsistent badges, broken links, stale cost tables. This skill orchestrates a 4-reviewer adversarial panel, validates findings with plan-review-integrator, and implements all fixes in parallel.
 
-## Install
+## Installation
 
+**Claude Code (plugin install — recommended):**
 ```bash
-git clone https://github.com/wan-huiyan/skill-portfolio-audit ~/.claude/skills/skill-portfolio-audit
+# Add the marketplace, then install the plugin
+claude plugin marketplace add wan-huiyan/skill-portfolio-audit
+claude plugin install skill-portfolio-audit@wan-huiyan-skill-portfolio-audit
+```
+
+**Claude Code (git clone):**
+```bash
+git clone https://github.com/wan-huiyan/skill-portfolio-audit.git ~/.claude/skills/skill-portfolio-audit
+```
+
+**Cursor** (2.4+):
+```bash
+# Per-project rule (most reliable)
+mkdir -p .cursor/rules
+# Copy plugins/skill-portfolio-audit/SKILL.md content into .cursor/rules/skill-portfolio-audit.mdc with alwaysApply: true
+
+# Or via npx skills CLI
+npx skills add wan-huiyan/skill-portfolio-audit --global
 ```
 
 ## Quick Start
